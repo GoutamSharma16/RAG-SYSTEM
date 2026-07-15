@@ -1,0 +1,1221 @@
+ID     Topic         Content
+                     Employees can work
+                     remotely up to 3 days
+                     per week. Core
+                     collaboration hours are
+       Remote Work 10:00 AM to 3:00 PM
+      1Policy        EST.
+                     Standard medical
+                     coverage includes
+                     80% of dental work
+                     and 100% of annual
+       Health        wellness checkups
+      2Insurance     through BlueCross.
+                     The office guest Wi-Fi
+                     network name is
+                     'HQ_Guest' and the
+                     weekly rotating
+                     password is
+      3Wi-Fi Access 'Spring2026!'.
+                     Travel expenses must
+                     be submitted via the
+                     Concur portal within 30
+                     days of the trip
+       Expense       completion to get
+      4Reimbursementapproved.
+                     Full-time staff
+                     members accrue 1.5
+                     days of vacation time
+                     per month, totaling 18
+       Paid Time Off paid days off per
+      5(PTO)         calendar year.
+                     For laptop hardware
+                     issues or password
+                     resets, open a ticket at
+                     company.com or call
+      6IT Support    extension 4357.
+                     Core collaboration
+                     hours for all teams are
+                     9:00 AM to 4:00 PM
+       Remote Work &EST. [Ref Code: OX-
+      7Hours         1001]
+                     Employees receive a
+                     $5000 annual stipend
+                     for gym memberships,
+                     fitness trackers, or
+       Health &      sports gear. [Ref
+      8Wellness      Code: OX-1002]
+                     The office building
+                     doors automatically
+                     lock at 4 PM on
+                     weekdays and remain
+       Office &      locked all weekend.
+      9Security      [Ref Code: OX-1003]
+                     Hotel stays for
+                     corporate conferences
+                     must not exceed $500
+                     per night without VP
+       Expense &     sign-off. [Ref Code:
+     10Travel        OX-1004]
+                     Full-time staff
+                     members accrue 3
+                     days of vacation time
+                     per month, totaling 20
+       Time Off &    days yearly. [Ref
+     11Leave         Code: OX-1005]
+                     Laptops are eligible for
+                     hardware refreshes
+                     every 2 years from the
+                     initial deployment date.
+     12IT & Hardware [Ref Code: OX-1006]
+                     Tuition reimbursement
+                     is available up to
+                     $3000 per year for job-
+                     related degree
+       Benefits &    programs. [Ref Code:
+     13Perks         OX-1007]
+                A referral bonus of
+                $500 is paid if your
+                recommended
+                candidate stays with
+                the company for 6
+                months. [Ref Code:
+  Performance & OX-1008]
+14Growth
+                Flexible Friday hours
+                allow employees to log
+                off at 6 PM if weekly
+  Remote Work &tasks are done. [Ref
+15Hours         Code: OX-1009]
+                Mental health support
+                is available 24/7
+                through our Employee
+                Assistance Program
+                (EAP) at 1-800-555-
+  Health &      5678. [Ref Code: OX-
+16Wellness      1010]
+                The office guest Wi-Fi
+                network name is
+                'Corp_Secure' and the
+                rotating password is
+  Office &      'WelcomeToHQ!'. [Ref
+17Security      Code: OX-1011]
+                The daily meal
+                allowance for business
+                travel is capped at
+                $500 including taxes
+  Expense &     and tips. [Ref Code:
+18Travel        OX-1012]
+                Parental leave offers
+                12 weeks of 100%
+                paid time off for
+                primary and secondary
+  Time Off &    caregivers. [Ref Code:
+19Leave         OX-1013]
+                Multi-factor
+                authentication (MFA)
+                via the Okta Verify app
+                is mandatory for all
+                system logins. [Ref
+20IT & Hardware Code: OX-1014]
+                Complimentary
+                catered lunch is
+                provided in the main
+                cafeteria every
+  Benefits &    Monday and Friday.
+21Perks         [Ref Code: OX-1015]
+                An individual learning
+                budget of $150 is
+                allocated to every
+                employee on January
+  Performance & 1st annually. [Ref
+22Growth        Code: OX-1016]
+                The core time zone for
+                company-wide all-
+                hands meetings is
+                Eastern Standard
+  Remote Work &Time (EST). [Ref
+23Hours         Code: OX-1017]
+                Vision insurance
+                covers up to $3000 for
+                prescription lenses or
+                frames every two
+  Health &      years. [Ref Code: OX-
+24Wellness      1018]
+                Physical badge
+                replacement fee is
+                $100 if lost more than
+  Office &      twice in a rolling year.
+25Security      [Ref Code: OX-1019]
+                  Flights under 4 hours
+                  must be booked in
+                  Economy class using
+                  the corporate travel
+  Expense &       dashboard. [Ref Code:
+26Travel          OX-1020]
+                  Bereavement leave
+                  provides up to 10 days
+                  of paid time off for the
+                  loss of an immediate
+                  family member. [Ref
+  Time Off &      Code: OX-1021]
+27Leave
+                Software installation
+                requests must be
+                vetted by security and
+                take up to 2 business
+                days to approve. [Ref
+28IT & Hardware Code: OX-1022]
+                The company matches
+                401(k) contributions
+                dollar-for-dollar up to
+                6% of your base
+  Benefits &    salary. [Ref Code: OX-
+29Perks         1023]
+                Annual performance
+                reviews take place
+                every year during the
+  Performance & month of June. [Ref
+30Growth        Code: OX-1024]
+                International remote
+                work is restricted to a
+                maximum of 14 days
+  Remote Work &per calendar year. [Ref
+31Hours         Code: OX-1025]
+                Health Savings
+                Account (HSA)
+                contributions are
+                matched by the
+                company up to $3000
+  Health &      annually. [Ref Code:
+32Wellness      OX-1026]
+                Visitors must be
+                registered in the
+                Envoy system at least
+  Office &      3 hours prior to arrival.
+33Security      [Ref Code: OX-1027]
+                Mileage
+                reimbursement for
+                personal vehicle use is
+                calculated at 62 cents
+  Expense &     per mile. [Ref Code:
+34Travel        OX-1028]
+                Sabbatical leave of 16
+                weeks is available to
+                employees after
+                completing 4
+                consecutive years of
+  Time Off &    service. [Ref Code:
+35Leave         OX-1029]
+                The corporate VPN
+                must be active
+                whenever accessing
+                internal code
+                repositories or
+                databases. [Ref Code:
+36IT & Hardware OX-1030]
+                Commuter benefits
+                allow pre-tax transit
+                pass purchases up to
+  Benefits &    $150 per month. [Ref
+37Perks         Code: OX-1031]
+                Mid-year check-ins are
+                conducted in June to
+                track goals and career
+  Performance & progression. [Ref
+38Growth        Code: OX-1032]
+                 Employees can work
+                 remotely up to 3 days
+                 per week with
+   Remote Work &manager approval.
+39Hours          [Ref Code: OX-1033]
+                 Standard medical
+                 coverage includes
+                 75% of dental work
+                 and 100% of annual
+   Health &      wellness checkups.
+   Wellness      [Ref Code: OX-1034]
+40
+                 Secure document
+                 shredding bins are
+                 located next to every
+                 printer station on floors
+   Office &      2 and 5. [Ref Code:
+41Security       OX-1035]
+                 Travel expenses must
+                 be submitted via the
+                 Concur portal within 10
+                 days of trip
+   Expense &     completion. [Ref Code:
+42Travel         OX-1036]
+                 Sick leave covers up
+                 to 14 fully paid days
+                 per year for personal
+   Time Off &    illness or family care.
+43Leave          [Ref Code: OX-1037]
+                 For laptop hardware
+                 issues or password
+                 resets, open a ticket at
+                 help.company.com or
+                 call ext. 4357. [Ref
+44IT & Hardware Code: OX-1038]
+                 Adoption assistance
+                 benefits provide up to
+                 $500 for eligible
+                 adoption-related
+   Benefits &    expenses. [Ref Code:
+45Perks          OX-1039]
+                 Internal job postings
+                 are restricted to
+                 employees who have
+                 been in their current
+   Performance & role for 12 months.
+46Growth         [Ref Code: OX-1040]
+                 Core collaboration
+                 hours for all teams are
+                 9:00 AM to 3:00 PM
+   Remote Work &EST. [Ref Code: OX-
+47Hours          1041]
+                 Employees receive a
+                 $1000 annual stipend
+                 for gym memberships,
+                 fitness trackers, or
+   Health &      sports gear. [Ref
+48Wellness       Code: OX-1042]
+                 The office building
+                 doors automatically
+                 lock at 7 PM on
+                 weekdays and remain
+   Office &      locked all weekend.
+49Security       [Ref Code: OX-1043]
+                 Hotel stays for
+                 corporate conferences
+                 must not exceed $150
+                 per night without VP
+   Expense &     sign-off. [Ref Code:
+50Travel         OX-1044]
+                 Full-time staff
+                 members accrue 14
+                 days of vacation time
+                 per month, totaling 18
+   Time Off &    days yearly. [Ref
+51Leave          Code: OX-1045]
+                Laptops are eligible for
+                hardware refreshes
+                every 2 years from the
+                initial deployment date.
+52IT & Hardware [Ref Code: OX-1046]
+                Tuition reimbursement
+                is available up to
+                $3000 per year for job-
+                related degree
+  Benefits &    programs. [Ref Code:
+53Perks         OX-1047]
+                A referral bonus of
+                $5000 is paid if your
+                recommended
+                candidate stays with
+                the company for 18
+                months. [Ref Code:
+  Performance & OX-1048]
+54Growth
+                Flexible Friday hours
+                allow employees to log
+                off at 7 PM if weekly
+  Remote Work &tasks are done. [Ref
+55Hours         Code: OX-1049]
+                Mental health support
+                is available 24/7
+                through our Employee
+                Assistance Program
+                (EAP) at 1-800-555-
+  Health &      5678. [Ref Code: OX-
+56Wellness      1050]
+                The office guest Wi-Fi
+                network name is
+                'HQ_Guest' and the
+                rotating password is
+  Office &      'WelcomeToHQ!'. [Ref
+57Security      Code: OX-1051]
+                The daily meal
+                allowance for business
+                travel is capped at
+                $500 including taxes
+  Expense &     and tips. [Ref Code:
+58Travel        OX-1052]
+                Parental leave offers
+                12 weeks of 100%
+                paid time off for
+                primary and secondary
+  Time Off &    caregivers. [Ref Code:
+59Leave         OX-1053]
+                Multi-factor
+                authentication (MFA)
+                via the Okta Verify app
+                is mandatory for all
+                system logins. [Ref
+60IT & Hardware Code: OX-1054]
+                Complimentary
+                catered lunch is
+                provided in the main
+                cafeteria every
+  Benefits &    Monday and Thursday.
+61Perks         [Ref Code: OX-1055]
+                An individual learning
+                budget of $150 is
+                allocated to every
+                employee on January
+  Performance & 1st annually. [Ref
+62Growth        Code: OX-1056]
+                The core time zone for
+                company-wide all-
+                hands meetings is
+                Eastern Standard
+  Remote Work &Time (EST). [Ref
+63Hours         Code: OX-1057]
+                 Vision insurance
+                 covers up to $2500 for
+                 prescription lenses or
+                 frames every two
+  Health &       years. [Ref Code: OX-
+64Wellness       1058]
+                 Physical badge
+                 replacement fee is
+                 $3000 if lost more than
+  Office &       twice in a rolling year.
+65Security       [Ref Code: OX-1059]
+                 Flights under 4 hours
+                 must be booked in
+                 Economy class using
+                 the corporate travel
+  Expense &      dashboard. [Ref Code:
+66Travel         OX-1060]
+                 Bereavement leave
+                 provides up to 5 days
+                 of paid time off for the
+                 loss of an immediate
+                 family member. [Ref
+  Time Off &
+                 Code: OX-1061]
+67Leave
+                Software installation
+                requests must be
+                vetted by security and
+                take up to 2 business
+                days to approve. [Ref
+68IT & Hardware Code: OX-1062]
+                The company matches
+                401(k) contributions
+                dollar-for-dollar up to
+                50% of your base
+  Benefits &    salary. [Ref Code: OX-
+69Perks         1063]
+                Annual performance
+                reviews take place
+                every year during the
+  Performance & month of December.
+70Growth        [Ref Code: OX-1064]
+                International remote
+                work is restricted to a
+                maximum of 5 days
+  Remote Work &per calendar year. [Ref
+71Hours         Code: OX-1065]
+                Health Savings
+                Account (HSA)
+                contributions are
+                matched by the
+                company up to $5000
+  Health &      annually. [Ref Code:
+72Wellness      OX-1066]
+                Visitors must be
+                registered in the
+                Envoy system at least
+                24 hours prior to
+  Office &      arrival. [Ref Code: OX-
+73Security      1067]
+                Mileage
+                reimbursement for
+                personal vehicle use is
+                calculated at 65 cents
+  Expense &     per mile. [Ref Code:
+74Travel        OX-1068]
+                Sabbatical leave of 16
+                weeks is available to
+                employees after
+                completing 2
+                consecutive years of
+  Time Off &    service. [Ref Code:
+75Leave         OX-1069]
+                The corporate VPN
+                must be active
+                whenever accessing
+                internal code
+                repositories or
+                databases. [Ref Code:
+76IT & Hardware OX-1070]
+                Commuter benefits
+                allow pre-tax transit
+                pass purchases up to
+  Benefits &    $150 per month. [Ref
+77Perks         Code: OX-1071]
+                Mid-year check-ins are
+                conducted in June to
+                track goals and career
+  Performance & progression. [Ref
+78Growth        Code: OX-1072]
+                Employees can work
+                remotely up to 3 days
+                per week with
+  Remote Work &manager approval.
+79Hours         [Ref Code: OX-1073]
+                Standard medical
+                coverage includes 4%
+                of dental work and
+                100% of annual
+                wellness checkups.
+  Health &
+                [Ref Code: OX-1074]
+80Wellness
+                Secure document
+                shredding bins are
+                located next to every
+                printer station on floors
+  Office &      3 and 5. [Ref Code:
+81Security      OX-1075]
+                Travel expenses must
+                be submitted via the
+                Concur portal within 14
+                days of trip
+  Expense &     completion. [Ref Code:
+82Travel        OX-1076]
+                Sick leave covers up
+                to 3 fully paid days per
+                year for personal
+  Time Off &    illness or family care.
+83Leave         [Ref Code: OX-1077]
+                For laptop hardware
+                issues or password
+                resets, open a ticket at
+                help.company.com or
+                call ext. 8821. [Ref
+84IT & Hardware Code: OX-1078]
+                Adoption assistance
+                benefits provide up to
+                $500 for eligible
+                adoption-related
+  Benefits &    expenses. [Ref Code:
+85Perks         OX-1079]
+                Internal job postings
+                are restricted to
+                employees who have
+                been in their current
+  Performance & role for 6 months. [Ref
+86Growth        Code: OX-1080]
+                Core collaboration
+                hours for all teams are
+                10:00 AM to 5:00 PM
+  Remote Work &EST. [Ref Code: OX-
+87Hours         1081]
+                Employees receive a
+                $1000 annual stipend
+                for gym memberships,
+                fitness trackers, or
+  Health &      sports gear. [Ref
+88Wellness      Code: OX-1082]
+                 The office building
+                 doors automatically
+                 lock at 7 PM on
+                 weekdays and remain
+   Office &      locked all weekend.
+ 89Security      [Ref Code: OX-1083]
+                 Hotel stays for
+                 corporate conferences
+                 must not exceed $250
+                 per night without VP
+   Expense &     sign-off. [Ref Code:
+ 90Travel        OX-1084]
+                 Full-time staff
+                 members accrue 14
+                 days of vacation time
+                 per month, totaling 18
+   Time Off &    days yearly. [Ref
+ 91Leave         Code: OX-1085]
+                 Laptops are eligible for
+                 hardware refreshes
+                 every 2 years from the
+                 initial deployment date.
+ 92IT & Hardware [Ref Code: OX-1086]
+                 Tuition reimbursement
+                 is available up to $150
+                 per year for job-related
+   Benefits &    degree programs. [Ref
+ 93Perks         Code: OX-1087]
+                 A referral bonus of
+                 $500 is paid if your
+                 recommended
+                 candidate stays with
+                 the company for 18
+                 months. [Ref Code:
+   Performance &
+                 OX-1088]
+ 94Growth
+                 Flexible Friday hours
+                 allow employees to log
+                 off at 7 PM if weekly
+   Remote Work &tasks are done. [Ref
+ 95Hours         Code: OX-1089]
+                 Mental health support
+                 is available 24/7
+                 through our Employee
+                 Assistance Program
+                 (EAP) at 1-800-555-
+   Health &      4357. [Ref Code: OX-
+ 96Wellness      1090]
+                 The office guest Wi-Fi
+                 network name is
+                 'Office_WiFi' and the
+                 rotating password is
+   Office &      'Spring2026!'. [Ref
+ 97Security      Code: OX-1091]
+                 The daily meal
+                 allowance for business
+                 travel is capped at
+                 $500 including taxes
+   Expense &     and tips. [Ref Code:
+ 98Travel        OX-1092]
+                 Parental leave offers
+                 12 weeks of 100%
+                 paid time off for
+                 primary and secondary
+   Time Off &    caregivers. [Ref Code:
+ 99Leave         OX-1093]
+                 Multi-factor
+                 authentication (MFA)
+                 via the Okta Verify app
+                 is mandatory for all
+                 system logins. [Ref
+100IT & Hardware Code: OX-1094]
+                 Complimentary
+                 catered lunch is
+                 provided in the main
+                 cafeteria every
+   Benefits &    Monday and Thursday.
+101Perks         [Ref Code: OX-1095]
+                 An individual learning
+                 budget of $150 is
+                 allocated to every
+                 employee on January
+   Performance & 1st annually. [Ref
+102Growth        Code: OX-1096]
+                 The core time zone for
+                 company-wide all-
+                 hands meetings is
+                 Eastern Standard
+   Remote Work &Time (EST). [Ref
+103Hours         Code: OX-1097]
+                 Vision insurance
+                 covers up to $100 for
+                 prescription lenses or
+                 frames every two
+   Health &      years. [Ref Code: OX-
+104Wellness      1098]
+                 Physical badge
+                 replacement fee is
+                 $150 if lost more than
+   Office &      twice in a rolling year.
+105Security      [Ref Code: OX-1099]
+                 Flights under 4 hours
+                 must be booked in
+                 Economy class using
+                 the corporate travel
+   Expense &     dashboard. [Ref Code:
+106Travel        OX-1100]
+                 Bereavement leave
+                 provides up to 5 days
+                 of paid time off for the
+                 loss of an immediate
+   Time Off &    family member. [Ref
+107Leave         Code: OX-1101]
+                 Software installation
+                 requests must be
+                 vetted by security and
+                 take up to 2 business
+                 days to approve. [Ref
+108IT & Hardware Code: OX-1102]
+                 The company matches
+                 401(k) contributions
+                 dollar-for-dollar up to
+                 5% of your base
+   Benefits &    salary. [Ref Code: OX-
+109Perks         1103]
+                 Annual performance
+                 reviews take place
+                 every year during the
+   Performance & month of October. [Ref
+110Growth        Code: OX-1104]
+                 International remote
+                 work is restricted to a
+                 maximum of 2 days
+   Remote Work &per calendar year. [Ref
+111Hours         Code: OX-1105]
+                 Health Savings
+                 Account (HSA)
+                 contributions are
+                 matched by the
+                 company up to $1000
+   Health &      annually. [Ref Code:
+112Wellness      OX-1106]
+                 Visitors must be
+                 registered in the
+                 Envoy system at least
+   Office &      5 hours prior to arrival.
+113Security      [Ref Code: OX-1107]
+                 Mileage
+                 reimbursement for
+                 personal vehicle use is
+                 calculated at 62 cents
+   Expense &     per mile. [Ref Code:
+114Travel        OX-1108]
+                  Sabbatical leave of 16
+                  weeks is available to
+                  employees after
+                  completing 4
+                  consecutive years of
+    Time Off &    service. [Ref Code:
+115Leave          OX-1109]
+                  The corporate VPN
+                  must be active
+                  whenever accessing
+                  internal code
+                  repositories or
+                  databases. [Ref Code:
+116IT & Hardware OX-1100]
+                  Commuter benefits
+                  allow pre-tax transit
+                  pass purchases up to
+    Benefits &    $500 per month. [Ref
+117Perks          Code: OX-1111]
+                  Mid-year check-ins are
+                  conducted in June to
+                  track goals and career
+    Performance & progression. [Ref
+118Growth         Code: OX-1112]
+                  Employees can work
+                  remotely up to 3 days
+                  per week with
+    Remote Work &manager approval.
+119Hours          [Ref Code: OX-1113]
+                  Standard medical
+                  coverage includes
+                  75% of dental work
+                  and 100% of annual
+    Health &      wellness checkups.
+120 Wellness      [Ref Code: OX-1114]
+                 Secure document
+                 shredding bins are
+                 located next to every
+                 printer station on floors
+   Office &      2 and 4. [Ref Code:
+121Security      OX-1115]
+                 Travel expenses must
+                 be submitted via the
+                 Concur portal within 30
+                 days of trip
+   Expense &     completion. [Ref Code:
+122Travel        OX-1116]
+                 Sick leave covers up
+                 to 10 fully paid days
+                 per year for personal
+   Time Off &    illness or family care.
+123Leave         [Ref Code: OX-1117]
+                 For laptop hardware
+                 issues or password
+                 resets, open a ticket at
+                 help.company.com or
+                 call ext. 4357. [Ref
+124IT & Hardware Code: OX-1118]
+                 Adoption assistance
+                 benefits provide up to
+                 $5000 for eligible
+                 adoption-related
+   Benefits &    expenses. [Ref Code:
+125Perks         OX-1119]
+                 Internal job postings
+                 are restricted to
+                 employees who have
+                 been in their current
+   Performance & role for 12 months.
+126Growth        [Ref Code: OX-1120]
+                 Core collaboration
+                 hours for all teams are
+                 9:00 AM to 5:00 PM
+   Remote Work &EST. [Ref Code: OX-
+127Hours         1121]
+                 Employees receive a
+                 $150 annual stipend
+                 for gym memberships,
+                 fitness trackers, or
+   Health &      sports gear. [Ref
+128Wellness      Code: OX-1122]
+                 The office building
+                 doors automatically
+                 lock at 7 PM on
+                 weekdays and remain
+   Office &      locked all weekend.
+129Security      [Ref Code: OX-1123]
+                 Hotel stays for
+                 corporate conferences
+                 must not exceed
+                 $1000 per night
+   Expense &     without VP sign-off.
+130Travel        [Ref Code: OX-1124]
+                 Full-time staff
+                 members accrue 14
+                 days of vacation time
+                 per month, totaling 18
+   Time Off &    days yearly. [Ref
+131Leave         Code: OX-1125]
+                 Laptops are eligible for
+                 hardware refreshes
+                 every 3 years from the
+                 initial deployment date.
+132IT & Hardware [Ref Code: OX-1126]
+                 Tuition reimbursement
+                 is available up to $150
+                 per year for job-related
+   Benefits &    degree programs. [Ref
+133Perks         Code: OX-1127]
+                 A referral bonus of
+                 $3000 is paid if your
+                 recommended
+                 candidate stays with
+                 the company for 12
+   Performance & months. [Ref Code:
+134Growth        OX-1128]
+                 Flexible Friday hours
+                 allow employees to log
+                 off at 7 PM if weekly
+   Remote Work &tasks are done. [Ref
+135Hours         Code: OX-1129]
+                 Mental health support
+                 is available 24/7
+                 through our Employee
+                 Assistance Program
+                 (EAP) at 1-800-555-
+   Health &      5678. [Ref Code: OX-
+136Wellness      1130]
+                 The office guest Wi-Fi
+                 network name is
+                 'HQ_Guest' and the
+                 rotating password is
+   Office &      'WelcomeToHQ!'. [Ref
+137Security      Code: OX-1131]
+                 The daily meal
+                 allowance for business
+                 travel is capped at
+                 $500 including taxes
+   Expense &     and tips. [Ref Code:
+138Travel        OX-1132]
+                 Parental leave offers
+                 12 weeks of 100%
+                 paid time off for
+                 primary and secondary
+   Time Off &    caregivers. [Ref Code:
+139Leave         OX-1133]
+                 Multi-factor
+                 authentication (MFA)
+                 via the Okta Verify app
+                 is mandatory for all
+                 system logins. [Ref
+140IT & Hardware Code: OX-1134]
+                 Complimentary
+                 catered lunch is
+                 provided in the main
+                 cafeteria every
+   Benefits &    Monday and Thursday.
+141Perks         [Ref Code: OX-1135]
+                 An individual learning
+                 budget of $150 is
+                 allocated to every
+                 employee on January
+   Performance & 1st annually. [Ref
+142Growth        Code: OX-1136]
+                 The core time zone for
+                 company-wide all-
+                 hands meetings is
+                 Eastern Standard
+   Remote Work &Time (EST). [Ref
+143Hours         Code: OX-1137]
+                 Vision insurance
+                 covers up to $100 for
+                 prescription lenses or
+                 frames every two
+   Health &      years. [Ref Code: OX-
+144Wellness      1138]
+                 Physical badge
+                 replacement fee is
+                 $2500 if lost more than
+   Office &      twice in a rolling year.
+145Security      [Ref Code: OX-1139]
+                 Flights under 4 hours
+                 must be booked in
+                 Economy class using
+                 the corporate travel
+   Expense &     dashboard. [Ref Code:
+146Travel        OX-1140]
+                 Bereavement leave
+                 provides up to 5 days
+                 of paid time off for the
+                 loss of an immediate
+   Time Off &    family member. [Ref
+147Leave         Code: OX-1141]
+                 Software installation
+                 requests must be
+                 vetted by security and
+                 take up to 2 business
+                 days to approve. [Ref
+148IT & Hardware Code: OX-1142]
+                 The company matches
+                 401(k) contributions
+                 dollar-for-dollar up to
+                 50% of your base
+   Benefits &    salary. [Ref Code: OX-
+149Perks         1143]
+                 Annual performance
+                 reviews take place
+                 every year during the
+   Performance & month of October. [Ref
+150Growth        Code: OX-1144]
+                 International remote
+                 work is restricted to a
+                 maximum of 5 days
+   Remote Work &per calendar year. [Ref
+151Hours         Code: OX-1145]
+                 Health Savings
+                 Account (HSA)
+                 contributions are
+                 matched by the
+                 company up to $5000
+   Health &      annually. [Ref Code:
+152Wellness      OX-1146]
+                 Visitors must be
+                 registered in the
+                 Envoy system at least
+                 24 hours prior to
+   Office &      arrival. [Ref Code: OX-
+153Security      1147]
+                  Mileage
+                  reimbursement for
+                  personal vehicle use is
+                  calculated at 65 cents
+   Expense &      per mile. [Ref Code:
+154Travel         OX-1148]
+                  Sabbatical leave of 16
+                  weeks is available to
+                  employees after
+                  completing 2
+                  consecutive years of
+   Time Off &     service. [Ref Code:
+155Leave          OX-1149]
+                  Personal desktop
+                  plants are welcome
+                  but must be well-
+                  maintained and kept in
+                  leak-proof pots to
+156Office Plants avoid damage.
+                  Showers in the office
+                  gym facility are open
+                  from 6:00 AM to 8:00
+                  PM and stocked with
+157Gym Showers fresh towels daily.
+                  Secure indoor bicycle
+                  storage racks are
+                  located on the P1 level
+                  of the garage next to
+158Bike Storage the main elevators.
+                  Employees can
+                  request alternative
+                  ergonomic keyboards
+                  or vertical mice via the
+   Ergonomic      standard IT hardware
+159Keyboards      catalog.
+                  Standard desk setups
+                  include one monitor,
+                  but a second external
+                  display can be ordered
+                  with manager
+160Dual Monitors approval.
+                  Software engineers
+                  and support agents
+                  can request noise-
+   Noise-         canceling headsets to
+   Canceling      help minimize open-
+161Headphones office noise.
+                  All motorized height-
+                  adjustable standing
+                  desks must be reset to
+                  their lowest position
+                  before leaving on
+162Standing Desks Fridays.
+                  Blue bins are strictly
+                  for clean paper,
+                  cardboard, and plastic
+                  bottles. Food waste
+   Office         belongs in the green
+163Recyclables    bins.
+                  Used office or
+                  personal alkaline
+                  batteries should be
+                  dropped in the red
+                  disposal bucket
+   Battery        located in the
+164Disposal       mailroom.
+                  Report flickering
+                  overhead lights or
+                  burnt-out desk lamps
+                  by messaging the
+                  building facilities chat
+165Light Bulbs    thread.
+                  Automatic window
+                  blinds lower daily at
+                  2:00 PM to reduce
+                  solar glare and
+                  optimize building
+166Window Blinds cooling systems.
+                  Personal plug-in space
+                  heaters are strictly
+                  banned from individual
+                  cubicles due to
+167Space Heaters electrical fire hazards.
+                  Low-wattage personal
+                  USB desk fans are
+                  permitted if they do not
+                  create audible noise
+                  for adjacent
+168Desk Fans      coworkers.
+                  Keep your monitor
+                  screen at eye level
+                  and roughly an arm's
+                  length away to
+   Office         drastically reduce neck
+169Ergonomics     fatigue.
+                  The corporate office
+                  building lobby
+                  connects directly to
+                  the underground
+                  entrance of the City
+170Local Subways Center transit line.
+                  If you forget your
+                  security badge, visit
+                  the visitor desk for a
+                  temporary day pass
+                  after showing photo
+171Office Lockout ID.
+                  Lost or stolen security
+                  access badges must
+                  be reported to building
+                  security within 1 hour
+172Stolen Badges to deactivate access.
+                  Do not allow unknown
+                  individuals to walk
+                  through secure badge
+                  doors behind you
+   Tailgating     without scanning their
+173Rules          own card.
+                  Ground floor perimeter
+                  office windows must
+                  remain locked shut
+                  outside standard
+   Window         operational business
+174Security       hours.
+                  Physical keys to
+                  individual server
+                  enclosures are
+                  secured inside a
+   Server Rack    biometric lockbox in
+175Keys           the IT office room.
+                  If a heavy-duty paper
+                  shredder jams, do not
+                  attempt to clear it
+                  manually. Open a
+                  facilities assistance
+176Shredder Jams ticket.
+                  Contractors must
+                  return their temporary
+                  office keycards to the
+   Keycard        front desk on their final
+177Returns        calendar contract day.
+                  Corporate operating
+                  system security
+                  updates are forced
+                  automatically on
+   Software       Tuesday nights at
+178Updates        11:00 PM local time.
+                   Google Chrome and
+                   Microsoft Edge are the
+                   only officially
+                   supported web
+                   browsers for
+                   accessing corporate
+179Browser Policy tools.
+                   All project work files
+                   must be saved directly
+                   to corporate Google
+                   Drive or OneDrive
+180Cloud Storage cloud storage folders.
+                   Storing unencrypted
+                   client files on local
+                   computer desktop hard
+                   drives violates
+                   company security
+181Local Saving frameworks.
+                   USB flash drives and
+                   external hard disks are
+                   blocked on corporate
+                   laptops unless
+                   whitelisted by security
+182External Drives teams.
+                   Public Slack channel
+                   conversation history is
+                   retained for 365 days
+                   before being
+183Slack Retention automatically archived.
+                   When meeting with
+                   external clients,
+                   employees should use
+                   a clean blurred
+   Zoom            background or official
+184Backgrounds brand images.
+                   Employees must keep
+                   their internal calendar
+                   availability details
+                   visible to all
+   Calendar        colleagues to simplify
+185Visibility      scheduling.
+                   Standard email
+                   signatures must follow
+                   the marketing design
+                   format detailing name,
+   Email           role, and corporate
+186Signatures      logo.
+                   Always set an
+                   automated out-of-
+                   office email response
+                   and delegate a backup
+                   contact before starting
+187Out of Office your vacation.
+                   Hourly contractors
+                   must submit their
+                   weekly timesheets for
+                   approval before Friday
+                   at 5:00 PM every
+188Time Tracking week.
+                   Timesheets submitted
+                   past the Friday
+                   deadline will
+                   automatically defer
+   Late            payment processing to
+189Submissions the next cycle.
+                   All overtime hours
+                   worked by non-exempt
+                   staff require written
+                   confirmation from a
+   Direct Manager direct manager in
+190Approval        advance.
+                   Changing your direct
+                   deposit banking
+                   information requires
+                   secondary verification
+   Direct Deposit via an SMS multifactor
+191Setup           code.
+                   Previous year W-2 and
+                   1099 tax documents
+                   can be downloaded
+                   from the ADP payroll
+   Tax Form        portal for up to 5
+192Access          years.
+                   If you spot a
+                   calculation
+                   discrepancy on your
+                   paystub, email
+                   payroll@company.com
+   Paystub         with your employee ID
+193Inquiries       number.
+                   Update your residential
+                   address in Workday
+                   immediately if you
+                   move to ensure
+   Address         accurate state tax
+194Changes         withholding.
+                   External mortgage
+                   companies seeking
+                   employment
+                   verification must be
+                   routed to the
+   Verification of automated HR hotline
+195Jobs            system.
+                   Any legal subpoenas
+                   delivered to the office
+                   must be brought to the
+   Legal           General Counsel's
+196Subpoenas       desk immediately.
+                   Innovation designs
+                   must be reviewed by
+                   internal patent counsel
+                   before being
+                   showcased at public
+197Patent Filings conferences.
+                   Contributing code to
+                   open-source projects
+                   on company time
+                   requires a signed
+   Open Source intellectual property
+198Rules           waiver.
+                   Only executive vice
+                   presidents or corporate
+                   officers hold the legal
+                   authority to sign
+199Client Contractsrevenue contracts.
+                   Standard non-
+                   disclosure agreement
+                   templates can be
+                   generated instantly via
+                   the legal team's
+200NDA Requests internal portal.
+                   Active vendors
+                   undergo an annual
+                   performance
+                   evaluation focusing on
+   Vendor          service delivery SLA
+201Appraisals      metrics and pricing.
+                   Purchases over
+                   $50,000 require a
+                   competitive bidding
+                   process featuring
+   Procurement proposals from at least
+202Bids            3 vendors.
+                   Keep common kitchen
+                   tables clean by wiping
+                   up spills and placing
+   Office          dirty plates directly in
+203Cleanliness     the dishwasher.
+                   The last person to pull
+                   a coffee cup from the
+                   espresso machine is
+                   responsible for
+   Coffee Machine emptying the grounds
+204Care            tray.
+                 Replacing a lost
+                 physical building
+                 access badge a
+                 second time incurs a
+                 nominal $15
+   Lost Badges   administration
+205Fee           replacement fee.
+                 This milestone row
+                 marks the completion
+                 of the 200-row sample
+                 corporate policy
+   Final Row     database for beginner
+206Check         RAG practice.
+
