@@ -1,41 +1,35 @@
-# policy_data.txt
+# Ambica Steels Limited — Corporate Policies
+
+**Document Reference:** ASL/CP/2026/V1
+**Effective Date:** July 2026
+**Applicability:** All Operations, Units, and Subsidiary Facilities
 
 ## Overview
 
-This file is a plain-text export of a sample corporate policy database — 206 rows in the format **ID | Topic | Content**. It appears to be synthetic/demo data built for practicing Retrieval-Augmented Generation (RAG) pipelines: the final row is explicitly labeled *"Final Row Check"* and describes itself as a *"200-row sample corporate policy database for beginner RAG practice."*
+This document consolidates Ambica Steels Limited's (ASL) corporate governance framework across six policy areas, covering everything from core company values to sales contracts, workforce development, social responsibility, sustainability, and data privacy.
 
-## Format
+## Contents
 
-The data is **not** a clean delimited table (no CSV commas or tabs) — it's raw, wrapped plain text where each record spans multiple lines:
+| # | Section | Summary |
+|---|---------|---------|
+| 1 | **Mission, Vision & Core Values (5C Framework)** | Vision to lead the stainless steel industry; mission centered on quality manufacturing (bright bars, angle bars, fine wires); values built on Credibility, Collaboration, Curiosity, Communication, and Commitment. |
+| 2 | **Standard Terms & Conditions of Sales** | Governs offer/contract formation (2-day offer validity), technical specs, pricing/GST exclusions, 18% p.a. penalty on overdue invoices, delivery liability (force majeure), and rules for undelivered/unclaimed goods. |
+| 3 | **Skilling & Mentorship Policy** | DGFT Foreign Trade Policy compliance via internal technical training, export/logistics compliance courses, apprenticeships, and external mentorship for MSMEs and exporters. |
+| 4 | **Corporate Social Responsibility (CSR)** | Defines Section 135 exclusions (normal business activity, employee-only benefits, political funding) and approved activities (women's education, healthcare, vocational training, environmental preservation), plus committee governance and appraisal metrics. |
+| 5 | **ESG & Sustainability** | Carbon footprint tracking across 80,000 MT melting capacity, ISO 9001:2015 and IATF 16949:2016 compliance, and forex hedging for raw material procurement (70–75% of revenue). |
+| 6 | **Digital Privacy & Information Security** | Scope limited to voluntarily submitted PII (email, name, company, contact info), used only for catalog/support purposes; routine vulnerability scanning; no persistent tracking cookies. |
 
-```
-ID   Topic            Content
-                       <content line 1>
-                       <content line 2>
-     <Topic label>     <content line 3>
-   <ID><Topic cont.>   <content line N>
-```
+## Key Figures at a Glance
 
-Because the source was likely copy-pasted from a rendered table (e.g., a PDF or web page), columns are visually aligned with whitespace rather than structured with delimiters, and the ID/Topic/Content text often wraps awkwardly across lines. **This file is meant to be parsed programmatically, not read top-to-bottom.**
+- **Offer validity:** 2 days from issue
+- **Overdue interest penalty:** 18% per annum
+- **Failure-to-collect window:** 1 week before ASL may redirect/sell goods
+- **Melting capacity:** 80,000 MT
+- **Raw material share of revenue:** 70–75%
+- **Quality standards:** ISO 9001:2015, IATF 16949:2016
 
-## Fields
+## Notes
 
-| Field | Description |
-|---|---|
-| **ID** | Sequential row number (1–206) |
-| **Topic** | A short category label, e.g. `Remote Work Policy`, `Health Insurance`, `Wi-Fi Access`, `Expense Reimbursement`, `PTO`, `IT Support`, `Office Security`, `Time Off & Leave`, `Benefits & Perks`, `Performance & Growth`, `Payroll`, `Legal`, `Procurement` |
-| **Content** | 1–3 sentences of policy text. Many entries include a trailing `[Ref Code: OX-####]` tag, which appears to be an internal reference/citation ID used to test whether a RAG system correctly retrieves and cites the right source chunk |
-
-## Notable characteristics
-
-- **Recurring topics with conflicting values**: several topics (e.g., "Remote Work Policy" / "Remote Work & Hours", "Time Off (PTO)" / "Time Off & Leave") repeat with *different* numeric details (e.g., PTO accrual stated as both 1.5 days/month and 3 days/month; core hours stated as both 10 AM–3 PM and 9 AM–4 PM). This is likely intentional — a common RAG stress-test to see if retrieval picks the most recent/correct version rather than an outdated one.
-- **Ref Codes**: ~31+ entries carry `[Ref Code: OX-####]` tags for traceability/citation testing.
-- **Sensitive-looking sample data**: includes fake Wi-Fi network names/passwords, support phone numbers, and internal contacts — these are placeholder/synthetic values for demo purposes, not real credentials.
-- **Wide topic range**: covers HR (PTO, parental/bereavement/sabbatical leave, payroll, benefits), IT (hardware, VPN, MFA, software updates, browser policy), office/physical security (badges, tailgating, visitor registration), and legal/procurement policies.
-
-## Suggested use
-
-To work with this file programmatically, first reconstruct each record by regex/pattern rather than fixed-width columns — e.g., split on the leading `ID<Topic>` pattern that appears at the start of each record's last content line, then join the wrapped lines above it. Once parsed into structured `{id, topic, content, ref_code}` records, the data is well-suited for:
-- Chunking and embedding for a RAG demo
-- Testing retrieval accuracy against near-duplicate/conflicting topics
-- Practicing citation/reference-code matching
+- Default delivery terms fall back to **Ex Works (Incoterms 2000)** when not otherwise specified.
+- CSR governance includes a Board-appointed Committee and an optional 3-member Internal Monitoring Group.
+- No persistent behavioral-tracking cookies are used; users can disable cookies without losing site access.

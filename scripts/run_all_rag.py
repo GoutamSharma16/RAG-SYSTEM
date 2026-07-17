@@ -1,4 +1,30 @@
-import retrieval_pipeline
+import os
+import sys
+from dotenv import load_dotenv
+
+# 1. Debug where Python is looking for your .env file
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+expected_env_path = os.path.join(project_root, ".env")
+
+print(f"\n[DEBUG] Project Root detected as: {project_root}")
+print(f"[DEBUG] Looking for .env at: {expected_env_path}")
+print(f"[DEBUG] Does .env exist there? {'YES' if os.path.exists(expected_env_path) else 'NO'}")
+
+# Explicitly load from the absolute path
+load_dotenv(expected_env_path)
+
+# Confirm if the key actually loaded into memory
+has_key = "OPENROUTER_API_KEY" in os.environ
+print(f"[DEBUG] Was OPENROUTER_API_KEY loaded successfully? {'YES' if has_key else 'NO'}\n")
+
+# 2. Setup script imports
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(project_root, "Utils"))
+
+try:
+    import script
+except ImportError:
+    raise ImportError("Could not locate script.py. Ensure it is placed inside the 'Utils' directory.")
 
 
 def looks_like_runner_command(value):
@@ -37,7 +63,7 @@ def main():
             print("Please type your actual question.")
             continue
 
-        retrieval_pipeline.run_all_flows(question)
+        script.run_all_flows(question)
 
 
 if __name__ == "__main__":

@@ -9,11 +9,11 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_text_splitters import CharacterTextSplitter, RecursiveCharacterTextSplitter
 
-BASE_DIR = Path(__file__).resolve().parent
+# Since script.py lives inside the 'Utils' folder, the project root is its grandparent folder.
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 for env_file in (BASE_DIR / ".env", BASE_DIR / "venv" / ".env"):
     load_dotenv(str(env_file))
-
 
 
 def get_openrouter_api_key():
@@ -70,17 +70,6 @@ def get_vector_store():
 
 def run_splitter_demo():
     """Show how CharacterTextSplitter and RecursiveCharacterTextSplitter behave."""
-    def print_chunks(label, splitter, text):
-        print("\n" + "=" * 60)
-        print(label)
-        print("=" * 60)
-
-        chunks = splitter.split_text(text)
-        for i, chunk in enumerate(chunks, 1):
-            print(f"Chunk {i}: ({len(chunk)} chars)")
-            print(f'"{chunk}"')
-            print()
-
     chunk_size = 100
     chunk_overlap = 0
 
@@ -95,11 +84,12 @@ def run_splitter_demo():
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,
     )
+    print("Splitter demo initialized.")
 
 
 def run_ingestion():
     """Load docs, split them, generate embeddings, and persist the Chroma vector store."""
-    docs_path = BASE_DIR / "docs"
+    docs_path = BASE_DIR / "data" / "docs"
     persistent_directory = BASE_DIR / "db" / "chroma_db"
 
     if not docs_path.exists():
@@ -349,8 +339,6 @@ def looks_like_runner_command(value):
         or "&&" in lower
         or "run_all_rag.py" in lower
         or "script.py" in lower
-        or "python.exe" in lower
-        or "venv\\scripts\\python.exe" in lower
         or ("python" in lower and (".py" in lower or "python.exe" in lower or "scripts" in lower))
     )
 

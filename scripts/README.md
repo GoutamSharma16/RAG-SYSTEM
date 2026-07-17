@@ -1,67 +1,89 @@
-# RAG Pipeline — Project README
+# RAG Pipeline — Project Overview
 
-This project is a small Retrieval-Augmented Generation (RAG) pipeline built with **LangChain**, **ChromaDB**, and **OpenRouter** (used as an OpenAI-compatible API). The core logic lives in `script.py`, a single-file, mode-based CLI. Everything else in this folder is a **thin compatibility wrapper**: a set of legacy, individually-named entrypoints that were kept around (or created) so older commands/scripts still work, while all real logic now lives in one place.
+A Retrieval-Augmented Generation (RAG) system built with LangChain, Chroma, and
+OpenRouter. This repo is a set of thin CLI wrappers around a shared core module
+(`script.py`), each exposing one stage of the pipeline: text splitting,
+ingestion, retrieval, multi-query retrieval, answer generation, and
+history-aware chat.
 
-> Note: `README.md` in the uploads was empty — this file replaces it as the project's actual documentation.
+## Architecture
 
-## Project structure
+All entrypoint scripts follow the same pattern:
+
+1. Resolve `project_root` (parent of the script's directory).
+2. Add `project_root/Utils` to `sys.path`.
+3. Import the shared `script` module from `Utils/script.py`.
+4. Call one function from `script.py` to run that stage of the pipeline.
 
 ```
-script.py                              # core pipeline — all real logic lives here
-ingestion_pipeline.py                  # wrapper → script.run_ingestion()
-retrieval_pipeline.py                  # wrapper → script.run_retrieval()
-answer_generation.py                   # wrapper → script.answer_query()
-multi_query_retrieval.py               # wrapper → script.run_multi_query_retrieval()
-history_aware_generation.py            # wrapper → script.history_aware_answer() / run_history_chat_loop()
-recursive_character_text_spliiter.py   # wrapper → script.run_splitter_demo()
-run_all_rag.py                         # wrapper → script.run_all_flows() (interactive loop)
-docs/                                  # put your .txt source documents here (not included)
-db/chroma_db/                          # persisted vector store, created by ingestion
+project_root/
+├── Utils/
+│   └── script.py          # core logic: splitting, ingestion, retrieval, generation
+├── recursive_character_text_spliiter.py
+├── ingestion_pipeline.py
+├── retrieval_pipeline.py
+├── multi_query_retrieval.py
+├── answer_generation.py
+├── history_aware_generation.py
+├── run_all_rag.py
+├── real_rag.py
+└── .env                    # holds OPENROUTER_API_KEY
 ```
 
-## How the wrappers work
+> **Note:** `script.py` itself isn't included in the uploaded files — all
+> wrappers assume it lives in `Utils/` and exposes the functions listed below.
 
-Each wrapper follows the same pattern:
+## Entrypoints
 
-1. Import the real function from `script.py`.
-2. Read a question from `sys.argv`, filtering out shell/interpreter noise (flags like `-u`, `--`, `cd /d ...`, `python.exe`, the wrapper's own filename, `&&` chains) via a local `looks_like_runner_command()` helper, so a stray launch command never gets treated as the user's actual question.
-3. If no valid question was passed as an argument, fall back to an interactive `input("Enter your question: ")` prompt.
-4. Call the corresponding `script.py` function and let it print the results.
-
-This means **every wrapper is equivalent to running `script.py` in the matching mode** — they exist purely for convenience/backward compatibility (e.g. if you or a tool is used to invoking `python answer_generation.py "..."` instead of `python script.py answer "..."`).
-
-## Wrapper-to-mode mapping
-
-| Wrapper script | Equivalent `script.py` command | Underlying function |
+| File | Purpose | Calls into `script.py` |
 |---|---|---|
-| `ingestion_pipeline.py` | `python script.py ingest` | `run_ingestion()` |
-| `retrieval_pipeline.py` | `python script.py retrieve "question"` | `run_retrieval()` |
-| `answer_generation.py` | `python script.py answer "question"` | `answer_query()` |
-| `multi_query_retrieval.py` | `python script.py multi "question"` | `run_multi_query_retrieval()` |
-| `history_aware_generation.py` | `python script.py chat` (or one-shot with a question arg) | `history_aware_answer()` / `run_history_chat_loop()` |
-| `recursive_character_text_spliiter.py` | `python script.py splitter` | `run_splitter_demo()` |
-| `run_all_rag.py` | `python script.py all "question"` (looped interactively) | `run_all_flows()` |
+| `recursive_character_text_spliiter.py` | Demo of the recursive character text splitter | `run_splitter_demo()` |
+| `ingestion_pipeline.py` | Parses and ingests source documents into the vector store | `run_ingestion()` |
+| `retrieval_pipeline.py` | Runs a single retrieval query (from CLI args or prompt) | `run_retrieval(query)` |
+| `multi_query_retrieval.py` | Runs multi-query expansion + retrieval | `run_multi_query_retrieval(query)` |
+| `answer_generation.py` | Retrieves context and generates an answer | `answer_query(query)` |
+| `history_aware_generation.py` | Chat-style Q&A that's aware of prior turns | `get_vector_store()`, `get_chat_model()`, `history_aware_answer(...)`, or `run_history_chat_loop()` |
+| `run_all_rag.py` | Interactive loop running the full flow end-to-end, with `.env` debug logging | `run_all_flows(question)` |
+| `real_rag.py` | Consolidated module re-exporting `run_ingestion`, `run_retrieval`, `run_all_flows` as a cleaner API surface | wraps `script.py` |
+| `tempCodeRunnerFile.py` | Leftover VS Code "Run Code" scratch file — just imports `script` | — |
 
-## Usage
+## Query Extraction Helper
 
-Run `ingestion_pipeline.py` (or `python script.py ingest`) once to build the vector store from `docs/*.txt` files, then use any of the other wrappers to query it:
+`retrieval_pipeline.py`, `answer_generation.py`, `multi_query_retrieval.py`,
+and `history_aware_generation.py` each include a `looks_like_runner_command()`
+/ `extract_query_from_args()` pair. This filters out shell/IDE noise (e.g.
+`python.exe`, `cd /d`, `&&`, `-u`, `--`) that VS Code's "Run Python File"
+button sometimes injects into `sys.argv`, so a stray runner command doesn't
+get treated as the user's actual question. If no clean query survives
+filtering, the script falls back to an interactive `input()` prompt.
 
-```bash
-python ingestion_pipeline.py
-python retrieval_pipeline.py "What is the PTO policy?"
-python answer_generation.py "What is the PTO policy?"
-python multi_query_retrieval.py "What is the PTO policy?"
-python history_aware_generation.py "What is the PTO policy?"
-python recursive_character_text_spliiter.py
-python run_all_rag.py
-```
+## Setup
 
-All wrappers require the same setup as `script.py`: an `OPENROUTER_API_KEY` in a `.env` file, and `docs/` populated with `.txt` files before ingestion.
+1. Create a `.env` file at the project root with:
+   ```
+   OPENROUTER_API_KEY=your_key_here
+   ```
+2. Ensure `Utils/script.py` defines: `run_splitter_demo`, `run_ingestion`,
+   `run_retrieval`, `run_multi_query_retrieval`, `answer_query`,
+   `get_vector_store`, `get_chat_model`, `history_aware_answer`,
+   `run_history_chat_loop`.
+3. Run any entrypoint directly, e.g.:
+   ```bash
+   python ingestion_pipeline.py
+   python run_all_rag.py
+   python retrieval_pipeline.py "What is the refund policy?"
+   ```
 
-## Details worth knowing
+## Cleanup Suggestions
 
-- **`history_aware_generation.py`** starts a *fresh* `chat_history = []` on every one-shot call (when a question is passed as an argument) — history only accumulates within `run_history_chat_loop()`'s interactive session, not across separate wrapper invocations.
-- **`run_all_rag.py`** behaves differently from the others: instead of taking a single question and exiting, it loops indefinitely, running the *entire* `run_all_flows()` sequence (retrieve → answer → multi-query → history-aware) for every question typed, until you type `quit`.
-- **`recursive_character_text_spliiter.py`** (note the typo in the filename — "spliiter") just calls `run_splitter_demo()`, which currently produces no visible output since that function never calls its own internal `print_chunks()` helper on any sample text. See `script.py`'s README for the fix.
-- Each wrapper duplicates its own copy of `looks_like_runner_command()` / `extract_query_from_args()` rather than importing them from `script.py` — functionally fine, but means any future fix to that filtering logic needs to be applied in every wrapper file individually, plus in `script.py`'s own copy.
-- `answer_generation.py`'s argument filter is slightly stricter than the others: it drops any argument starting with `-` outright, in addition to the shared `looks_like_runner_command()` check.
+- **`tempCodeRunnerFile.py`** — auto-generated by the VS Code Code Runner
+  extension; safe to delete or add to `.gitignore`.
+- **`recursive_character_text_spliiter.py`** — filename has a typo
+  ("spliiter"); consider renaming to `recursive_character_text_splitter.py`.
+- **`real_rag.py` vs `run_all_rag.py`** — both wrap `script.py` with
+  overlapping responsibility (`run_all_flows`/interactive loop vs. a
+  programmatic API). Worth clarifying which is the primary entrypoint vs.
+  library module, or merging them.
+- Debug `print()` statements in `run_all_rag.py` (project root / `.env`
+  detection) look like leftover troubleshooting output — fine for local dev,
+  but worth gating behind a `DEBUG` flag before sharing/deploying.
