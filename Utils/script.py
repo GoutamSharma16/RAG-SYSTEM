@@ -103,7 +103,7 @@ def run_ingestion():
 
     print(f"Loaded {len(documents)} document(s) from {docs_path}")
 
-    splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=0)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=400)
     chunks = splitter.split_documents(documents)
 
     print(f"Split into {len(chunks)} chunks")
@@ -119,7 +119,7 @@ def run_ingestion():
     return vectorstore
 
 
-def get_relevant_docs(db, query, k=5):
+def get_relevant_docs(db, query, k=8):
     """Retrieve the highest-ranked document chunks for a query."""
     retriever = db.as_retriever(search_kwargs={"k": k})
     docs = retriever.invoke(query)
@@ -133,7 +133,7 @@ def get_relevant_docs(db, query, k=5):
 def run_retrieval(query):
     """Retrieve and print context for the supplied question."""
     db = get_vector_store()
-    docs = get_relevant_docs(db, query, k=5)
+    docs = get_relevant_docs(db, query, k=8)
 
     print(f"User Query: {query}")
     print("--- Context ---")
@@ -158,7 +158,7 @@ Please provide a clear, helpful answer using only the information from these doc
 def answer_query(query):
     """Run the answer-generation flow for a single question."""
     db = get_vector_store()
-    relevant_docs = get_relevant_docs(db, query, k=5)
+    relevant_docs = get_relevant_docs(db, query, k=8)
 
     print(f"User Query: {query}")
     print("--- Context ---")
@@ -219,7 +219,7 @@ def run_multi_query_retrieval(original_query):
 
     print("\n" + "=" * 60)
 
-    retriever = db.as_retriever(search_kwargs={"k": 5})
+    retriever = db.as_retriever(search_kwargs={"k": 8})
     all_results = []
     seen_contents = set()
 
@@ -271,7 +271,7 @@ def history_aware_answer(user_question, db, model, chat_history):
     else:
         search_question = user_question
 
-    retriever = db.as_retriever(search_kwargs={"k": 3})
+    retriever = db.as_retriever(search_kwargs={"k": 8})
     docs = retriever.invoke(search_question)
 
     if not docs:
@@ -283,13 +283,14 @@ def history_aware_answer(user_question, db, model, chat_history):
         preview = "\n".join(doc.page_content.split("\n")[:2])
         print(f"  Doc {i}: {preview}...")
 
+    docs_context = "\n".join([f"- {doc.page_content}" for doc in docs])
     combined_input = f"""Based on the following documents, please answer this question: {user_question}
 
-    Documents:
-    {"\n".join([f"- {doc.page_content}" for doc in docs])}
+Documents:
+{docs_context}
 
-    Please provide a clear, helpful answer using only the information from these documents. If you can't find the answer in the documents, say "I don't have enough information to answer that question based on the provided documents."
-    """
+Please provide a clear, helpful answer using only the information from these documents. If you can't find the answer in the documents, say "I don't have enough information to answer that question based on the provided documents."
+"""
 
     messages = [
         SystemMessage(
