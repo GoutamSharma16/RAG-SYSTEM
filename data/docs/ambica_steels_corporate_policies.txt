@@ -1,0 +1,227 @@
+﻿===============================================================================
+                       AMBICA STEELS LIMITED
+                     COMPREHENSIVE CORPORATE POLICIES
+===============================================================================
+Document Reference: ASL/CP/2026/V1
+Effective Date: July 2026
+Applicability: All Operations, Units, and Subsidiary Facilities
+
+-------------------------------------------------------------------------------
+TABLE OF CONTENTS
+-------------------------------------------------------------------------------
+1. CORPORATE MISSION, VISION & CORE VALUES (5C FRAMEWORK)
+2. STANDARD TERMS & CONDITIONS OF SALES POLICY
+3. SKILLING AND MENTORSHIP POLICY (FOREIGN TRADE POLICY COMPLIANCE)
+4. CORPORATE SOCIAL RESPONSIBILITY (CSR) POLICY
+5. ENVIRONMENT, SOCIAL, AND GOVERNANCE (ESG) & SUSTAINABILITY POLICY
+6. DIGITAL PRIVACY & INFORMATION SECURITY POLICY
+
+===============================================================================
+1. CORPORATE MISSION, VISION & CORE VALUES (5C FRAMEWORK)
+===============================================================================
+
+1.1 VISION STATEMENT
+Ambica Steels Limited envisions becoming a global leader in the stainless steel 
+industry, renowned for operational excellence, disruptive innovation, and high-
+tier manufacturing capabilities. The organization aims to transform the long 
+product steel landscape by defining structural industry benchmarks for quality, 
+environmental sustainability, and client-centric engineering.
+
+1.2 MISSION STATEMENT
+To consistently manufacture and deliver superior-grade stainless steel products 
+(including bright bars, angle bars, and fine wires) that systematically conform 
+to global rigorous parameters and transcend stakeholder expectations. We pledge 
+to cultivate a culture of unceasing internal process improvement by channeling 
+capital into research, development, and advanced metallurgical technologies.
+
+1.3 CORE VALUES: THE 5C FRAMEWORK
+Our structural value ecosystem is anchored on five foundational pillars that 
+govern cross-departmental operations, workforce expectations, and strategic B2B 
+partnerships:
+
+  A. CREDIBILITY: Trust is established and preserved daily via product 
+     homogeneity, strict process reproducibility, and unwavering structural 
+     integrity. For clients, this represents zero-defect product security.
+  B. COLLABORATION: Synergistic ecosystem management involving internal business 
+     units, global raw material vendors, and end consumers to generate long-term 
+     shared value and seamlessly engineered supply chains.
+  C. CURIOSITY: Active promotion of continuous technical exploration, encouraging 
+     R&D teams to study emerging metallurgical variations, next-gen machinery, 
+     and automation infrastructure to stay ahead of international market cycles.
+  D. COMMUNICATION: Complete data transparency across operational verticals. 
+     This ensures accurate customer batch tracking, explicit production state updates, 
+     and flat-hierarchy dialogue internally.
+  E. COMMITMENT: Persistent execution of service agreements, customer delivery schedules, 
+     workforce safety protections, and specialized corporate social targets.
+
+===============================================================================
+2. STANDARD TERMS & CONDITIONS OF SALES POLICY
+===============================================================================
+
+2.1 OFFER AND CONTRACT FORMATION
+  - Form of Quotation: Written quotations issued by Ambica Steels Limited (ASL) 
+    constitute a formal "Offer" which remains contractually valid for an exact 
+    window of two (2) days from the formal date of issue, unless alternate terms 
+    are clearly stated within the transaction text.
+  - Revocation Rights: ASL retains unconditional legal authorization to revoke an 
+    outstanding Offer at any phase prior to receiving the Buyer's formal written 
+    acceptance by executing a written notice.
+  - Final Binding Contract: A legally enforceable contract is explicitly formed 
+    only when ASL evaluates, accepts, issues, and dispatches a formal "Sale Order" 
+    document to the purchasing entity.
+  - Assignment Restrictions: The Buyer is prohibited from assigning, transferring, 
+    or offloading the contract or its associated benefits without the explicit 
+    advance written consent of ASL management. Amendments or cancelations require 
+    bilateral written approval.
+
+2.2 TECHNICAL SPECIFICATIONS
+  - Goods delivered will conform strictly to the technical parameter sheets explicitly 
+    detailed inside the finalized "Sale Order."
+  - General product details listed inside advertising brochures, handbooks, 
+    digital portals, or generic price sheets are completely non-binding unless 
+    individually integrated into the Sale Order framework. No supplementary 
+    implied or inferred warranties are recognized.
+
+2.3 PRICE, TAXES, AND PAYMENT TERMS
+  - Tax Exclusions: Quoted Offer Prices exclude Goods and Services Tax (GST), 
+    customs clearing levies, import/export duties, or associated statutory fees.
+  - Unconditional Payment Obligation: Buyers must remit payments strictly matching 
+    the payment timeline clauses explicitly set out in the Sale Order. The Buyer 
+    is legally barred from withholding, delaying, or offsetting payments under 
+    any scenario, including active product quality disputes, volume shortages, 
+    or operational arguments.
+  - Overdue Interest Penalties: Delinquent invoices trigger an automatic compounding 
+    interest penalty calculated at eighteen percent (18%) per annum, applied 
+    from the date of initial default up to the final execution date of payment.
+
+2.4 DELIVERY, LOGISTICS, AND LIABILITY
+  - Best-Efforts Delivery Timeline: ASL commits reasonable structural maneuvers to 
+    satisfy stated shipping timelines. However, if transit disruptions manifest due 
+    to force majeure incidents or issues outside ASLâs control, the corporation 
+    shall assume zero liability for direct, indirect, or collateral financial damages.
+  - Lot Distribution: ASL retains full operational liberty to divide production volumes 
+    and deliver commercial goods in staggered lots.
+  - Default Freight Framework: Where precise freight definitions are omitted in the 
+    contract documentation, Ex Works (Incoterms 2000) at an ASL facility of the 
+    company's choice will serve as the governance baseline.
+  - Failure to Take Delivery: If a Buyer fails to clear or claim the arriving goods 
+    within one (1) week of delivery at the designated destination point, ASL 
+    retains an unrestricted legal option to redirect or sell the cargo to 
+    alternative clients. The original Buyer must issue an immediate, un-demurred 
+    "No Objection Certificate" (NOC) and absorb all storage, demurrage, and diversion costs.
+
+===============================================================================
+3. SKILLING AND MENTORSHIP POLICY (FOREIGN TRADE POLICY COMPLIANCE)
+===============================================================================
+
+3.1 REGULATORY ALIGNMENT
+In strict accordance with the mandatory provisions governing Status Holders under 
+the national Foreign Trade Policy issued by the Directorate General of Foreign 
+Trade (DGFT), ASL operates an institutional framework to optimize technical 
+skill distribution, industrial safety, and local economic development.
+
+3.2 SKILLING INITIATIVES (INTERNAL & INDUSTRY INDUCTION)
+  - Technical & Quality Alignment: Routine structured training cycles targeting 
+    internal operators, engineers, and contractual technicians regarding advanced 
+    metallurgical processing, precise machinery maintenance, and quality safety protocols.
+  - Global Logistics Compliance: Tailored specialized courses detailing export 
+    documentation standards, automated customs clearing, global shipping frameworks, 
+    and dynamic regulatory compliance.
+  - Educational Apprenticeships: Maintenance of systematic, structured internship, 
+    apprenticeship, and industrial training tracks targeting engineering and vocational 
+    students to cultivate the next wave of industrial human capital.
+
+3.3 MENTORSHIP INITIATIVES (EXTERNAL MSME SUPPORT)
+  - ASL extends corporate mentorship, infrastructure knowledge, and process insight 
+    to Micro, Small, and Medium Enterprises (MSMEs), industrial startups, and aspiring 
+    exporters.
+  - Core Mentorship Pillars: Sharing of industry practices regarding international trade compliance, 
+    standardization requirements for western economies, precise quality matrix control, 
+    and foreign business development strategies.
+
+3.4 LOGISTICAL OPERATIONS & DATA RECORDING
+  - Dissemination Formats: Programs may be delivered via physically located training modules, 
+    centralized online instruction portals, interactive industrial workshops, or 
+    live plantfloor training.
+  - Document Management: The Human Resources and Corporate Governance branches must 
+    meticulously track and retain auditable records of all skilling events, hours, 
+    and participants. This policy must be hosted publicly on the web domain.
+
+===============================================================================
+4. CORPORATE SOCIAL RESPONSIBILITY (CSR) POLICY
+===============================================================================
+
+4.1 LEGAL BOUNDS & STATUTORY DISQUALIFICATIONS
+  - Normal Business Exclusion: Projects executed by the company in its normal course 
+    of manufacturing operations are completely barred from being categorized as CSR.
+  - Employee-Benefit Restrictions: Stated initiatives that primarily benefit only 
+    the active employees of the company or their direct familial dependents will 
+    not be classified as legitimate CSR under Section 135 of the Companies Act.
+  - Political Prohibition: Direct or indirect funding, resource allocations, or contributions 
+    provided to any political faction under Section 182 of the Act are strictly excluded.
+
+4.2 APPROVED STRATEGIC CSR ACTIVITIES
+  - Women's Empowerment & Education: Running specialized skill centers providing free education 
+    to girls in English, computer literacy, and advanced technological vocational skills.
+  - Charitable Healthcare Operations: Financing and managing free charitable dispensaries 
+    and community health clinics to supply clinical treatments and medicine to underprivileged neighborhoods.
+  - General Social Core Pillars: Supporting vocational training for the differently abled; 
+    fostering gender equality; preserving local environmental biomes, flora, and fauna; 
+    supporting historic preservation; and supporting state-sanctioned technology incubators.
+
+4.3 GOVERNANCE, EXECUTION AND MONITORING
+  - Committee Oversight: The formal Board-appointed CSR Committee reviews project scopes, 
+    authorizes authorized personnel, and details precise capital disbursements.
+  - Monitoring Framework: The Committee may assign a dedicated three-member 
+    Internal Monitoring Group tasked with compiling continuous project field evaluations.
+  - Project Appraisal Metrics: Projects are assessed against formal metrics including:
+    * Technical project architecture soundness.
+    * Line-item financial budget validation and matching fund security.
+    * Time-chart milestone schedules.
+    * Comprehensive, auditable project documentation.
+
+===============================================================================
+5. ENVIRONMENT, SOCIAL, AND GOVERNANCE (ESG) & SUSTAINABILITY POLICY
+===============================================================================
+
+5.1 ENVIRONMENTAL FOOTPRINT & CARBON MITIGATION
+  - ASL recognizes its moral obligations regarding environmental stewardship. The company 
+    is dedicated to systematically tracking, measuring, and actively minimizing its 
+    carbon footprint across all functional production mills, foundries, and administrative blocks.
+  - Heavy focus is placed on enhancing energy efficiency throughout the melting capacity 
+    (currently rated at 80,000 MT) and maintaining clean emissions controls.
+
+5.2 QUALITY ASSURANCE & SECTORAL CREDIBILITY
+  - Strict compliance with ISO 9001:2015 Quality Management Systems across all steel melting, 
+    rolling, and cold-finishing facilities.
+  - Strict adherence to International Automotive Task Force (IATF 16949:2016) standards to ensure 
+    high-reliability, defect-free long product supply chains to safety-critical automotive lines globally.
+
+5.3 FINANCIAL RISK & FOREX MANAGEMENT
+  - To mitigate market volatility linked to international raw material procurements (which comprise 
+    70%-75% of operational revenue), the company utilizes a structured forward contract facility 
+    to hedge against foreign exchange fluctuations and protect consolidated corporate liquidity.
+
+===============================================================================
+6. DIGITAL PRIVACY & INFORMATION SECURITY POLICY
+===============================================================================
+
+6.1 DATA DEFINITION & COLLECTION BOUNDS
+  - Scope: Governs processing of Personally Identifiable Information (PII) captured 
+    via corporate portals, application tools, and digital catalog requests.
+  - Collected Data Elements: Scope is restricted to voluntarily provided client/user metrics 
+    including corporate email, name, company affiliation, contact numbers, and structural 
+    business profiles.
+
+6.2 INFORMATION UTILIZATION FRAMEWORK
+  - Data collected is strictly used to optimize product information distribution, process catalog downloads, 
+    fulfill customer support inquiries, and disseminate authorized company announcements.
+
+6.3 INFRASTRUCTURE PROTECTION PROTOCOLS
+  - Vulnerability Assessments: Digital portals undergo routine automated security scanning 
+    and malware assessments to proactively detect and neutralize system vulnerabilities.
+  - Tracking Controls: No persistent cookies are deployed for user behavioral tracking purposes. 
+    Users retain complete programmatic authority to turn off cookies in local browser configurations 
+    without losing basic operational site accessibility.
+===============================================================================
+

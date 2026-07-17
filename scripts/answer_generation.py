@@ -1,6 +1,8 @@
 import sys
 
-from script import answer_query as run_answer_query
+from real_rag import run_all_flows
+
+
 
 
 def looks_like_runner_command(value):
@@ -40,7 +42,8 @@ def main():
         print("No question provided.")
         return
 
-    run_answer_query(query)
+    print(run_all_flows(query))
+
 
 
 if __name__ == "__main__":

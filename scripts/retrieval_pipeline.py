@@ -1,9 +1,10 @@
 import sys
 
-from script import run_retrieval
+from real_rag import run_retrieval
 
 
 def looks_like_runner_command(value):
+
     """Detect launch-command noise so the wrapper prompts the user for the real question."""
     lower = value.lower()
     return (

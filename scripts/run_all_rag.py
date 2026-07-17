@@ -1,4 +1,4 @@
-from script import run_all_flows
+import retrieval_pipeline
 
 
 def looks_like_runner_command(value):
@@ -37,7 +37,7 @@ def main():
             print("Please type your actual question.")
             continue
 
-        run_all_flows(question)
+        retrieval_pipeline.run_all_flows(question)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-from script import run_ingestion
+from real_rag import run_ingestion
 
 
 def main():
@@ -8,3 +8,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -1,14 +1,39 @@
 import sys
 
-from script import (
-    get_chat_model,
-    get_vector_store,
-    history_aware_answer,
-    run_history_chat_loop,
-)
+# This repo's `scripts/*_generation.py` files are thin wrappers.
+# The actual RAG pipeline lives in `retrieval_pipeline.py` / `ingestion_pipeline.py`.
+# To make the entrypoints runnable, we provide compatibility functions here
+# that delegate into the consolidated retrieval flow.
+
+import retrieval_pipeline
+
+
+def answer_query(user_question, *args, **kwargs):
+    """Compatibility entrypoint expected by answer_generation.py."""
+    return retrieval_pipeline.run_all_flows(user_question)
+
+
+def run_history_chat_loop():
+    """Fallback interactive loop."""
+    while True:
+        q = input("\nYour question (type 'quit' to exit): ").strip()
+        if q.lower() == "quit":
+            print("Goodbye!")
+            break
+        if not q:
+            print("No question provided.")
+            continue
+        retrieval_pipeline.run_all_flows(q)
+
+
+# Compatibility aliases (used by older code paths)
+get_chat_model = None
+get_vector_store = None
+history_aware_answer = answer_query
 
 
 def looks_like_runner_command(value):
+
     """Detect launch-command noise so the wrapper prompts the user for the real question."""
     lower = value.lower()
     return (

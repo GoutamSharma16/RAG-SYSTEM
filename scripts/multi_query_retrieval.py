@@ -1,6 +1,6 @@
 import sys
 
-from script import run_multi_query_retrieval
+from scripts import run_multi_query_retrieval
 
 
 def looks_like_runner_command(value):
